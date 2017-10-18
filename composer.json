@@ -1,0 +1,24 @@
+{
+    "name": "lijie/hellotest",
+    "description": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lijie",
+            "email": "769328281@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hello\\": "src/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url":"https://packagist.phpcomposer.com"
+        }
+    }    
+}
